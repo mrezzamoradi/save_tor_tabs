@@ -1,0 +1,41 @@
+{
+	"description": "Save Tor-browser tabs to reload after restart",
+	"manifest_version": 2,
+	"name": "save-tor-tabs",
+	"version": "1.0",
+	"background": {
+		"scripts": [
+			"popup/background.js"
+		]
+	},
+	"applications": {
+		"gecko": {
+			"id": "{1262fc44-5ec9-4088-a7a7-4dc42f3f548d}",
+			"strict_min_version": "57.0a1"
+		}
+	},
+	"permissions": [
+		"<all_urls>",
+		"tabs",
+		"downloads",
+		"storage"
+	],
+	"icons": {
+		"16": "icons/icon16.png",
+		"32": "icons/icon32.png",
+		"48": "icons/icon48.png",
+		"64": "icons/icon64.png",
+		"128": "icons/icon128.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "icons/icon16.png",
+			"32": "icons/icon32.png",
+			"48": "icons/icon48.png",
+			"64": "icons/icon64.png",
+			"128": "icons/icon128.png"
+		},
+		"default_title": "SaveTabs",
+		"default_popup": "popup/index.html"
+	}
+}
