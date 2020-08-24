@@ -4,7 +4,7 @@ This is a firefox extension to save and restore Tor-browser tabs. This extension
 
 Security Issues
 ---------------
-There is a reason why Tor does not restore tabs after restart and its **security**. Use this extension wisely.
+There is a reason why Tor does not restore tabs after restart and it is **security**. Use this extension wisely.
 
 License
 -------
